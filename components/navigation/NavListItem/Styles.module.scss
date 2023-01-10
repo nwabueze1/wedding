@@ -1,0 +1,14 @@
+.navlist_item {
+  display: inline-block;
+  margin-right: 3rem;
+}
+
+.navlist_item a {
+  text-decoration: none;
+  color: gray;
+  transition: color 0.1s ease-in;
+}
+
+.navlist_item a:hover {
+  color: red;
+}
