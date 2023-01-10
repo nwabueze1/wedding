@@ -1,0 +1,31 @@
+.heading {
+  color: white;
+  font-size: 6rem;
+  z-index: 1;
+  text-transform: capitalize;
+  margin: 0;
+  line-height: 5.5rem;
+  transform: rotate(-10deg);
+}
+.heading span {
+  color: red;
+}
+h2.heading {
+  font-size: 4rem;
+}
+
+.paragraph {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  padding: 10px 0;
+  border: 3px double white;
+  border-left: none;
+  border-right: none;
+}
+
+.happy_couple {
+  display: flex;
+  justify-content: center;
+}

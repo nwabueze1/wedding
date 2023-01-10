@@ -1,0 +1,13 @@
+.image {
+  position: relative;
+  transition: filter 0.5s ease-in;
+}
+
+.image:hover {
+  cursor: pointer;
+  filter: brightness(30%);
+}
+
+.image:hover a {
+  display: inline-block !important;
+}

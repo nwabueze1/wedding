@@ -1,11 +1,11 @@
 import React from "react";
 import Styles from "./Styles.module.scss";
-import { Inter } from "@next/font/google";
+import { Oswald } from "@next/font/google";
 import Navlist from "../NavList";
 import NavListItem from "../NavListItem";
 import Navlogo from "../NavLogo";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Oswald({ subsets: ["latin"] });
 
 export default function Navbar() {
   return (

@@ -1,12 +1,12 @@
 .navlist_item {
   display: inline-block;
-  margin-right: 3rem;
+  margin-right: 4rem;
 }
 
 .navlist_item a {
   text-decoration: none;
-  color: gray;
   transition: color 0.1s ease-in;
+  color: white;
 }
 
 .navlist_item a:hover {
