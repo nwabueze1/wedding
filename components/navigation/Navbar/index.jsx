@@ -7,9 +7,13 @@ import Navlogo from "../NavLogo";
 
 const inter = Oswald({ subsets: ["latin"] });
 
-export default function Navbar() {
+export default function Navbar({ hasBackground = false }) {
   return (
-    <nav className={`${inter.className} ${Styles.navbar}`}>
+    <nav
+      className={`${inter.className} ${Styles.navbar} ${
+        hasBackground ? Styles.white_background : ""
+      }`}
+    >
       <Navlist>
         <NavListItem href="/">Home</NavListItem>
         <NavListItem href="/">About</NavListItem>

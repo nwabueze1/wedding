@@ -24,13 +24,13 @@ export default function WelcomePage() {
     <main>
       <Hero>
         <Navbar />
-        <h1 className={`${pacifico.className} ${Styles.heading}`}>Save </h1>
-        <h1 className={`${pacifico.className} ${Styles.heading}`}>the date</h1>
+        <h1 className="curve text--upper">Save </h1>
+        <h1 className="curve text--upper">the date </h1>
         <h2 className={`${pacifico.className} ${Styles.heading}`}>
           - 19<span>.</span>12<span>.</span>16 -{" "}
         </h2>
         <p className={`${oswald.className} ${Styles.paragraph}`}>
-          *** We are gettin married ***
+          *** We are getting married ***
         </p>
       </Hero>
       <Block>

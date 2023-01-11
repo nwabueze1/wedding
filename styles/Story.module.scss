@@ -1,0 +1,66 @@
+.hero {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: center;
+  background-image: url(/images/the-story-1920-a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  flex-direction: column;
+  //   filter: brightness(50%);
+}
+.hero_overlay {
+  height: 90vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 60%;
+  position: absolute;
+}
+
+.heart_icon {
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 100px;
+  z-index: 10;
+}
+
+.asked {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: center;
+  background-image: url(/images/the-story-1920-b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  flex-direction: column;
+}
+.asked_overlay {
+  height: 80vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 40%;
+  position: absolute;
+}
+
+.hug {
+  max-width: 1024px;
+  height: 70vh;
+  margin: 0 auto;
+  background-image: url(/images/the-story-hugged-him-a.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(40%);
+}
+.footer {
+  height: 50vh;
+  background: url(/images/slide-image-1920-c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
