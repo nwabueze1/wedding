@@ -4,7 +4,7 @@ import Styles from "./Styles.module.scss";
 
 export default function CardImage({ src = "", width = 450, height = 450 }) {
   return (
-    <div>
+    <div className={Styles.image_container}>
       <Image
         src={src}
         alt=""
@@ -12,7 +12,8 @@ export default function CardImage({ src = "", width = 450, height = 450 }) {
         width={width}
         className={Styles.image}
       />
-      <CardButton>See more</CardButton>
+      {/* <CardButton>See more</CardButton> */}
+      {/* <div className={Styles.border_line}></div> */}
     </div>
   );
 }

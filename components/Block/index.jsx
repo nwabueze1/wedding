@@ -1,6 +1,11 @@
-import Styles from "./Styles.module.scss"
+import Styles from "./Styles.module.scss";
 
-
-export default function index({ children }) {
-  return <section className={Styles.block}>{children}</section>;
+export default function index({ children, nobackground }) {
+  return (
+    <section
+      className={`${Styles.block} ${nobackground ? "" : Styles.background}`}
+    >
+      {children}
+    </section>
+  );
 }
