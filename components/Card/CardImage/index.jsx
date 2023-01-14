@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CardButton from "../CardButon/Index";
+import CardButton from "../CardButon";
 import Styles from "./Styles.module.scss";
 
 export default function CardImage({ src = "", width = 450, height = 450 }) {
